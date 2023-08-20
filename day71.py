@@ -3,8 +3,9 @@
 import sqlite3
 import hashlib
 import random
+import os
 
-connection = sqlite3.connect("day71hashsaltpasswords.db")
+connection = sqlite3.connect(os.path.join("day71folder","day71hashsaltpasswords.db"))
 cursor = connection.cursor()
 
 #cursor.execute("CREATE TABLE logininfo (username TEXT, password TEXT, salt TEXT)")

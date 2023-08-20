@@ -1,13 +1,16 @@
+#for unknown reasons tkinter seems to only work on windows and not on mac
 import tkinter as tk
+import os
 window = tk.Tk()
 window.title("story")
 window.geometry("500x500")
 
-imagefight = tk.PhotoImage(file = "day69fight.png")
-imageman = tk.PhotoImage(file = "day69man.png")
-imagerun = tk.PhotoImage(file = "day69run.png")
-imageyoudied = tk.PhotoImage(file = "day69youdied.png")
-imageyouwin = tk.PhotoImage(file = "day69youwin.png")
+imagefight = tk.PhotoImage(file=os.path.join("day69folder", "day69fight.png"))
+imageman = tk.PhotoImage(file=os.path.join("day69folder", "day69man.png"))
+imagerun = tk.PhotoImage(file=os.path.join("day69folder", "day69run.png"))
+imageyoudied = tk.PhotoImage(file=os.path.join("day69folder", "day69youdied.png"))
+imageyouwin = tk.PhotoImage(file=os.path.join("day69folder", "day69youwin.png"))
+
 
 def yourun():
     canvas.itemconfig(container , image = imagerun)

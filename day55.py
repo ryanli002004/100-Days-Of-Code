@@ -2,7 +2,7 @@ import os
 
 lst = []
 
-f = open("day51.todolist", "r")
+f = open(os.path.join("day51folder","day51.todolist"), "r")
 try:
     lst = eval(f.read())
 except SyntaxError:
@@ -46,14 +46,14 @@ while True:
     else:
         print("sorry choices are only 1, 2, 3, or 4")
 
-    if not os.path.exists("day55.saves"):
-        os.makedirs("day55.saves")
+    if not os.path.exists("day55folder"):
+        os.makedirs("day55folder")
     
-    filecount = os.listdir("day55.saves")
+    filecount = os.listdir("day55folder")
     filecounter = len(filecount) + 1
     filename = f"save{filecounter}.txt"
-    os.popen(f'copy day51.todolist day55.saves\\{filename}')
+    os.popen(f'cp {os.path.join("day51folder","day51.todolist")} {os.path.join("day55folder",f"{filename}")}')
 
-    f = open("day51.todolist", "w")
+    f = open(os.path.join("day51folder","day51.todolist"), "w")
     f.write(str(lst))
     f.close()

@@ -1,5 +1,6 @@
+import os
 lst = []
-f = open("day51.todolist", "r")
+f = open(os.path.join("day51folder","day51.todolist"), "r")
 try:
     lst = eval(f.read())
 except SyntaxError:
@@ -43,6 +44,6 @@ while True:
     else:
         print("sorry choices are only 1, 2, 3, or 4")
     
-    f = open("day51.todolist", "w")
+    f = open(os.path.join("day51folder","day51.todolist"), "w")
     f.write(str(lst))
     f.close()

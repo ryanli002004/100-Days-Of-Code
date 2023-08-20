@@ -1,4 +1,5 @@
-f = open("day48.list", "a+" )
+import os
+f = open(os.path.join("day48folder","day48.list"), "a+" )
 while True:
     ask = input("add new? y/n >")
     if ask == "y":

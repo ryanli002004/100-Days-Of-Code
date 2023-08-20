@@ -1,3 +1,4 @@
+#for unknown reasons tkinter seems to only work on windows and not on mac
 import tkinter as tk
 window = tk.Tk()
 window.title("calculator")

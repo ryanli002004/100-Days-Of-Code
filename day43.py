@@ -46,4 +46,4 @@ while True:
         print("You have won")
         break
     time.sleep(1)
-    os.system("cls")
+    os.system("clear")

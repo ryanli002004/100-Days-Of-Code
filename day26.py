@@ -1,10 +1,10 @@
 import time
 import os
-import pygame
+import pygame #has to be installed through terminal
 
 def play():
     pygame.mixer.init()
-    pygame.mixer.music.load("day26.wav")
+    pygame.mixer.music.load(os.path.join("day26folder","day26.wav"))
     pygame.mixer.music.play()
     while True:
         choic = input("press 2 to pause: ")
@@ -15,7 +15,7 @@ def play():
             continue
 
 while True:
-    os.system("cls")
+    os.system("clear")
     print("music player")
     time.sleep(1)
     print("press 1 to play")

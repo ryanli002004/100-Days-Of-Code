@@ -1,4 +1,4 @@
-f = open('day48.list','r')
+f = open('day48folder/day48.list','r')
 contents = f.read().split("\n")
 f.close()
 contents.pop()

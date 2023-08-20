@@ -1,22 +1,23 @@
 import random
+import os
 
 counter = 0
 def addidea():
     global counter
     counter += 1
-    f = open("day50.myideas","a+")
+    f = open(os.path.join("day50folder","day50.myideas"),"a+")
     f.close()
-    f = open("day50.myideas","r")
+    f = open(os.path.join("day50folder","day50.myideas"),"r")
     contents = f.read().split("\n")
     f.close()
-    f = open("day50.myideas","a+")
+    f = open(os.path.join("day50folder","day50.myideas"),"a+")
     idea = input("what is your idea? ")
     string = f"idea {counter}: {idea}\n"
     f.write(string)
     f.close()
 
 def viewidea():
-    f = open("day50.myideas","r")
+    f = open(os.path.join("day50folder","day50.myideas"),"r")
     contents = f.read().split("\n")
     contents.pop()
     if contents == []:

@@ -1,8 +1,9 @@
+import os
 print("pizza orders!")
 
 allorders = {}
 
-f = open("day52.pizzaorders","r")
+f = open(os.path.join("day52folder","day52.pizzaorders"),"r")
 try:
     allorders = eval(f.read())
 except SyntaxError:
@@ -41,6 +42,6 @@ while True:
         break
     else:
         print("please enter only 'yes' or 'no'!")
-    f = open("day52.pizzaorders","w")
+    f = open(os.path.join("day52folder","day52.pizzaorders"),"w")
     f.write(str(allorders))
     f.close()

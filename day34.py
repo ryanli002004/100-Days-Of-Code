@@ -4,7 +4,7 @@ import os
 list = []
 
 def prettyprint():
-    os.system("cls")
+    os.system("clear")
     counter = 0
     for loop in list:
         counter += 1

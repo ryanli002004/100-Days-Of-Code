@@ -1,8 +1,8 @@
 #used sqlite3 instead of replit's DB 
 import sqlite3
+import os
 
-
-connection = sqlite3.connect("day70plaintextpasswords.db")
+connection = sqlite3.connect(os.path.join("day70folder","day70plaintextpasswords.db"))
 cursor = connection.cursor()
 
 #cursor.execute("CREATE TABLE logininfo (username TEXT, password TEXT)")

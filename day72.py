@@ -2,9 +2,8 @@ import sqlite3
 import hashlib
 import os
 import datetime
-import random
 
-connection = sqlite3.connect('day72.db')
+connection = sqlite3.connect(os.path.join("day72folder","day72.db"))
 cursor = connection.cursor()
 
 cursor.execute("CREATE TABLE IF NOT EXISTS login( username TEXT, password TEXT, salt TEXT)")

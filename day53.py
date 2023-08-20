@@ -1,6 +1,7 @@
+import os
 lst = []
 
-f= open("day53.inventory", "r")
+f= open(os.path.join("day53folder","day53.inventory"), "r")
 try:
     lst = eval(f.read())
 except SyntaxError:
@@ -44,6 +45,6 @@ while True:
             else:
                 print(f"{item}")
 
-    f = open("day53.inventory","w")
+    f = open("day53folder/day53.inventory","w")
     f.write(str(lst))
     f.close()

@@ -42,7 +42,7 @@ print("Strength:", str2)
 time.sleep(1)
 print("let the fight begin!")
 time.sleep(3)
-os.system("cls")
+os.system("clear")
 
 if str1 > str2:
     difference = (str1 - str2) + 1
@@ -66,7 +66,7 @@ while True:
         else:
             print("both players are still alive and the battle continues!")
             time.sleep(2)
-            os.system("cls")
+            os.system("clear")
             continue
     elif c2 > c1:
         hp1 -= difference
@@ -78,6 +78,6 @@ while True:
         else:
             print("both players are still alive and the battle continues!")
             time.sleep(2)
-            os.system("cls")
+            os.system("clear")
     else:
         continue

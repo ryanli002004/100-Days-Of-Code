@@ -2,8 +2,9 @@
 
 import sqlite3
 import datetime
+import os
 
-connection = sqlite3.connect('day61.db')
+connection = sqlite3.connect(os.path.join('day61folder','day61.db'))
 cursor = connection.cursor()
 
 #cursor.execute("""CREATE TABLE twitter(date TEXT,time TEXT,tweet TEXT)""")

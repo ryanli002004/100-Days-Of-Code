@@ -1,7 +1,8 @@
 import sqlite3
 import datetime
+import os
 
-connection = sqlite3.connect("day62.db")
+connection = sqlite3.connect(os.path.join("day62folder","day62.db"))
 cursor = connection.cursor()
 password = "pooppants"
 

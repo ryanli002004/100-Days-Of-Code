@@ -1,12 +1,15 @@
+#for unknown reasons tkinter seems to only work on windows and not on mac
 import tkinter as tk
+import os
 window = tk.Tk()
 window.title("find person")
 window.geometry("500x500")
 
-filenamemo = "day67mo.png"
-filenamekatie = "day67katie.png"
-filenamegerald = "day67gerald.png"
-filenamecharlotte = "day67charlotte.png"
+folder = "day67folder"
+filenamecharlotte = os.path.join(folder, "day67charlotte.png")
+filenamegerald = os.path.join(folder, "day67gerald.png")
+filenamekatie = os.path.join(folder, "day67katie.png")
+filenamemo = os.path.join(folder, "day67mo.png")
 
 def findperson ():
     guess = text.get("1.0","end").strip()
