@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>home</title>
+        <link href="{{ url_for('static', filename='day78.css')}}" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ul>
+            {% for day in entries %}
+            <li><a href="/entries/{{ day }}">{{ day }}</a></li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+body{
+    background-color: azure;
+    text-align: center;
+}
+li{
+    padding: 10px;
+    background-color: darkgray;
+}
