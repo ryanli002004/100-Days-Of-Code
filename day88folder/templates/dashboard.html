@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>dashboard</title>
+        <link href="static/style.css" rel = "stylesheet" type = "text/css">
+    </head>
+    <body>
+        <a href="/logout"><button>log out</button></a>
+        <form method = 'post' action = '/saveentry'>
+            <p>title:<input type="text" name="title"></p>
+            <p>date:<input type="date" name="date"></p>
+            <p>entry:<input type="text" name ="entry"></p>
+            <button type="submit">Save</button>
+        </form>
+        <ul>
+            {% for entry in rows%}
+            <li>Title: {{entry[1]}}</li>
+            <li>Date: {{entry[2]}}</li>
+            <li>Entry: {{entry[3]}}</li>
+            <hr>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

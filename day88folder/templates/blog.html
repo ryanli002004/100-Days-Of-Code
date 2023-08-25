@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>blog</title>
+       <link href="static/style.css" rel = "stylesheet" type = "text/css">
+    </head>
+    <body>
+        <a href="/login"><button>log in</button></a>
+        <ul>
+            {% for entry in rows%}
+            <li>Title: {{entry[1]}}</li>
+            <li>Date: {{entry[2]}}</li>
+            <li>Entry: {{entry[3]}}</li>
+            <hr>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

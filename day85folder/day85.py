@@ -18,7 +18,10 @@ def index():
 
 @app.route('/login')
 def login():
-    return render_template("login.html")
+        if "username" in session:
+            return redirect('/dashboard')
+        else:
+            return render_template("login.html")
 
 @app.route('/result', methods = ['POST'])
 def result():
@@ -39,9 +42,10 @@ def result():
     
 @app.route('/dashboard')
 def dashboard():
-        page = render_template("Wlogin.html")
-        page = page.replace('{name}',session['name'])
-        return page
+        if 'username' in session:
+            page = render_template("Wlogin.html")
+            page = page.replace('{name}',session['name'])
+            return page
 
 @app.route('/createuser')
 def create():
@@ -62,8 +66,7 @@ def saveuser():
 
 @app.route('/logout')
 def logout():
-    session.pop('username', None)
-    session.pop('name', None)
+    session.clear()
     return redirect('/')
 
 if __name__ == "__main__":
