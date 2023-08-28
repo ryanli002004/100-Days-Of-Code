@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>admin</title>
+    </head>
+    <body>
+        <a href="/logout"><button>Log out</button></a>
+        <form action = '/adminresult' method = 'post'>
+            <p>Message:<input type="text" name="message"></p>
+            <button type="submit">Send</button>
+        </form>
+        <ul>
+            {% for entry in rows %}
+            <li>{{entry[1]}}</li>
+            <li>Message : {{entry[2]}}</li>
+            <form action = '/deletemessage' method="post">
+                <input type="hidden" value ='{{entry[0]}}' name = 'messageid' >
+                <button type="submit">Delete</button>
+            </form>
+            <hr>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
