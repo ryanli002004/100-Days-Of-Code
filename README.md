@@ -9,11 +9,12 @@ day 4: made a program that prints a sentence using concatenation and inputs
 day 5: made a program that uses if statements to see which spongebob character you are similar to
 day 6: made a program that checks username and password using if statements
 day 7: made a program that uses if statements to check if you are a real fan of spongebob
-day 8:
-day 9:
-day 10: 
-day 11:
-day 12:
+day 8: made a program that prints a sentense using concatenation and inputs
+day 9: made a program that tells you what generation you're part of based on the year you
+       were born using if statements
+day 10: made a program that calculates how much each people owes for a dinner
+day 11: made a program that calculates how many seconds are in a year
+day 12: made a program that gives the user a simple quiz
 day 13: 
 day 14:
 day 15:
