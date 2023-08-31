@@ -27,4 +27,4 @@ schedule.every(24).hours.do(quotesender)
 
 while True:
     schedule.run_pending()
-    time.sleep(1)
+    time.sleep(1) 
