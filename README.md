@@ -15,7 +15,8 @@ day 9: made a program that tells you what generation you're part of based on the
 day 10: made a program that calculates how much each people owes for a dinner
 day 11: made a program that calculates how many seconds are in a year
 day 12: made a program that gives the user a simple quiz
-day 13: 
+day 13: made a program that calculates what letter grade you got by asking for your score and max
+        possible score
 day 14:
 day 15:
 day 16:
