@@ -1,4 +1,4 @@
-print("loan cockulator")
+print("loan calculator")
 total = 1000
 for i in range(10):
     total += total * 0.05
