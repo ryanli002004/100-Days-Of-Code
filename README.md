@@ -26,21 +26,24 @@ day 18: made number guessing game that counts how many times you tried.
 day 19: made a program that calculates loan price after x years considering interest 
 day 20: made a program that prints out numbers with x incremement using range 
 day 21: made a program that asks you for a number then quizes you on the times table for that number
-day 22:
-day 23: 
-day 24:
-day 25:
-day 26:
-day 27: 
-day 28:
-day 29:
-day 30: 
-day 31:
-day 32:
-day 33: 
-day 34:
-day 35:
-day 36:
+day 22: made a number guessing game that counts how many times you tried that uses the random library
+day 23: made a simple login system using if statements
+day 24: made a program that rows a dice with x sides for you
+day 25: made a program that generates a character health stats
+day 26: made a program that can play a sound and it can be turned on and off
+day 27: made a program that creates characters with health and strength stats and prints the info
+day 28: made a program that generates character stats for two characters which names you choose, they then battle in automatic turns
+day 29: make a program that asks you for some text and a color and prints that text out in that color
+day 30: made a program that asks you how each day was so far
+day 31: made a program that prints out some text that is in a specific order with a specific color 
+        pattern
+day 32: made a program that prints out hello in a random language
+day 33: made a program that stores items in a list and you can view the list or remove items
+day 34: made a program that stores a list of emails and you can remove an email, view all emails, or
+        print out a text to a specific email for 10 emails
+day 35: made a program that stores items in a list and you can remove items, change items, view list
+        or empty the list
+day 36: 
 day 37: 
 day 38:
 day 39:
