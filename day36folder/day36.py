@@ -8,4 +8,4 @@ while True:
         for loop in list:
             print(loop)
     else:
-        print(f"sorry {nam} already in list")
+        print(f"sorry {nam} already in list") 
