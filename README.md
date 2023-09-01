@@ -17,14 +17,15 @@ day 11: made a program that calculates how many seconds are in a year
 day 12: made a program that gives the user a simple quiz
 day 13: made a program that calculates what letter grade you got by asking for your score and max
         possible score
-day 14:
-day 15:
-day 16:
-day 17: 
-day 18:
-day 19:
-day 20: 
-day 21:
+day 14: made a program that lets two people play rock paper scissors using getpass and if statements
+day 15: made a program in a while loop which is exitable that asks user what sound they want to hear
+        and prints out a sound
+day 16: made a program that asks you to fill in the blank and counts how many times you tried
+day 17: made a rock paper scissor game that counts how many times each player has won
+day 18: made number guessing game that counts how many times you tried.
+day 19: made a program that calculates loan price after x years considering interest 
+day 20: made a program that prints out numbers with x incremement using range 
+day 21: made a program that asks you for a number then quizes you on the times table for that number
 day 22:
 day 23: 
 day 24:
