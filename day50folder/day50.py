@@ -7,9 +7,6 @@ def addidea():
     counter += 1
     f = open(os.path.join("day50folder","day50.myideas"),"a+")
     f.close()
-    f = open(os.path.join("day50folder","day50.myideas"),"r")
-    contents = f.read().split("\n")
-    f.close()
     f = open(os.path.join("day50folder","day50.myideas"),"a+")
     idea = input("what is your idea? ")
     string = f"idea {counter}: {idea}\n"
