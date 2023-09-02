@@ -43,27 +43,30 @@ day 34: made a program that stores a list of emails and you can remove an email,
         print out a text to a specific email for 10 emails
 day 35: made a program that stores items in a list and you can remove items, change items, view list
         or empty the list
-day 36: 
-day 37: 
-day 38:
-day 39:
-day 40: 
-day 41:
-day 42:
-day 43: 
-day 44:
-day 45:
-day 46:
-day 47: 
-day 48:
-day 49:
-day 50: 
-day 51:
-day 52:
-day 53: 
-day 54:
-day 55:
-day 56:
+day 36: made a program that stores unique names in a list
+day 37: made a program that asks for information and give you a starwars name based on the info
+day 38: made a program that prints out a rainbowfied version of the sentence you input
+day 39: made a hangman game that selects a word from a list and counts how many lives you have left
+day 40: made a program that prints out a sentence based on info you input into a dictionary 
+day 41: made a program that prints out info about a website that you enter using dictionary
+day 42: made a program that creates a moke character based on your inputs and prints it out
+        in a color determined by its element
+day 43: made a bingo card that gets randomized numbers that are sorted from lowest to highest
+day 44: made a program that randomly picks numbers until a randomized bingo card is filled
+day 45: made a to do list with dictionary and if statements that allows you to add, view, remove
+        or edit items
+day 46: made a program that stores moke characters and stores them in a dictionary
+day 47: made a top trumps game where you pick a character and a stat and the player that's character         has the higher stat wins
+day 48: makes a program that scores initials and scores to a seperate file
+day 49: makes a program that reads that file and determine which initials have the current highest            score
+day 50: made a program that lets you add ideas to a file and lets you view random ideas
+day 51: made a program that is a todo list that autosaves to a file when the program ends
+day 52: made a program that calculates the price of a order of pizza and stores them in a dictionary
+        that is autosaved to a file when the program ends
+day 53: made a program that allows adding to an inventory, removing, and viewing, when viewing if theres more than one of a item, it displays the num of that item as item(x)
+day 54: made a program that adds up all the prices in a csv file
+day 55: made a program that is a todo list but everytime there is a change it saves a new file save
+day 56: made a program that reads a csv file and makes a folder for each artist in the file and a file in the folder under the artist for each of their songs 
 day 57: 
 day 58:
 day 59:
