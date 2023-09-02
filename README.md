@@ -57,10 +57,10 @@ day 44: made a program that randomly picks numbers until a randomized bingo card
 day 45: made a to do list with dictionary and if statements that allows you to add, view, remove
         or edit items
 day 46: made a program that stores moke characters and stores them in a dictionary
-day 47: made a top trumps game where you pick a character and a stat and the player that's character        
+day 47: made a top trumps game where you pick a character and a stat and the player that's character
         has the higher stat wins
 day 48: makes a program that scores initials and scores to a seperate file
-day 49: makes a program that reads that file and determine which initials have the current highest     
+day 49: makes a program that reads that file and determine which initials have the current highest
         score
 day 50: made a program that lets you add ideas to a file and lets you view random ideas
 day 51: made a program that is a todo list that autosaves to a file when the program ends
@@ -86,43 +86,69 @@ day 63: made a program that includes all of my favorite functions from previous 
 day 64: made a program using classes to define a job class and two sub classes teacher and doctor
 day 65: made a program using classes to define a character class with two sub classes enemy
         and player, under the enemy class there are two subclasses orc and vampire
-day 66: made a tkinter program that is a calculator that can add, subtract, multiply, and divide,
+day 66: made calculator with tinkter that can add, subtract, multiply, and divide,
         (for some weird reason tkinter always worked on my windows laptops but never on my mac)
 day 67: made a tkinter program that finds a person and displays their image on the window when you
-        enter their name (for some weird reason tkinter always worked on my windows laptops but never   
+        enter their name (for some weird reason tkinter always worked on my windows laptops but never 
         on my mac)
-day 68:
-day 69:
-day 70: 
-day 71:
-day 72:
-day 73: 
-day 74:
-day 75:
-day 76:
-day 77: 
-day 78:
-day 79:
-day 80: 
-day 81:
-day 82:
-day 83: 
-day 84:
-day 85:
-day 86:
-day 87: 
-day 88:
-day 89:
-day 90: 
-day 91:
-day 92:
-day 93: 
-day 94:
-day 95:
-day 96:
-day 97: 
-day 98:
-day 99:
+day 68: made a program with tkinter that tries to find a person with their names, if unable it        
+        displays a message. (for some weird reason tkinter always worked on my windows laptops but never on my mac)
+day 69: made a story game with tkinter that has multiple path options. (for some weird reason tkinter 
+        always worked on my windows laptops but never on my mac)
+day 70: made a program that stores login information in a database file and allows users to create a 
+        username and password or login
+day 71: made a program that stores login information in a database file, the password is hashed and  
+        salted
+day 72: made a program that is a diary that requires a login, you can either make a username and     
+        password, or login, the login information and diary entries are stored in a databse file and 
+        the password is hash and salted
+day 73: made a webpage using html that displays 5 websites that i like with a picture of each       
+        that, onclick, sends you to that website
+day 74: made a css file for day 73's html file
+day 75: made a webpage using html and css that displays my 10 most played videogames and the name of  
+        each is a link that takes you to that game
+day 76: made a webpage using flask that allows you to click on a link in the landing page and it      
+        takes you to two other possible pages
+day 77: made a blog webpage with flask and html
+day 78: made a webpage that displays days of this challenge and how we feel about it, the days are   
+        stored in a dictionary 
+day 79: made a webpage using html that allows the user to input login information
+day 80: made a webpage using flask that allows people to enter login information and checks if they
+        are allowed on the page
+day 81: made a webpage using flask that allows you to do a quiz to see if you are a robot
+day 82: made a webpage using flask that allows you to input a langauge, and it will redirect you to a 
+        page where you will be greeted with that language
+day 83: made a blog with flask and html that shows a blog but if you type ?theme=(x) it will change
+        the theme of the page
+day 84: made a webpage that allows you to create a username and password and lets you login, user    
+        creation page, successful logins, and failed logins all redirect you to a different page
+day 85: made a webpage with a create user and log in system that also utlizes session abilties
+day 86: made a blog and allows user once logged in to add entries to the blog it will display all    
+        previous entries
+day 87: made a blog displaying entries and allows user once logged in to add entries, username and   
+        password is stored in a database and password is hashed and salted
+day 88: made a blog that has a log in system that also has all the displayed entries ordered correctly
+day 89: made a chat where you can create a username and password, and chat and view chat only when    
+        you are logged in, there is also an admin account that can delete chats
+day 90: made a program that grabs a random user information from randomuser.me api
+day 91: made a program that grabs dad jokes from icanhazdadjoke api and gives you an option to view   
+        joke, save a joke, and view saved jokes 
+day 92: uses a forecast api to get information about the weather in my area and returns a sentence   
+        based on the weather
+day 93: made a webpage that displays a list of 10 spotify songs with a preview option for each song  
+        depending on what year you input
+day 94: made a program that grabs a news article from a news api and summarizes it into a sentence    
+        with the open ai api(could not test because open ai api requires payment)
+day 95: made a program that gets news articles from a news api, summarizes the news into a few words  
+        using open ai api, then uses spotify api to find a song related to those few words(could not  
+        test because open ai api requires payment)
+day 96: made a program that scrapes x pages of hacker news and returns any articles with special key  
+        words in the title of my choosing
+day 97: made a program that scrapes a website for an article and uses open ai api to return a    
+        summarized version of that article (could not test because open ai api requires payment)
+day 98: made a program that sends myself an email everday with a randomized inspiration quote
+day 99: made a program that scrapes hacker news and sends my self an email whenever there is new news
+        on hackernews that has special key words in the title of my choosing
 day 100: made a program that scrapes prices of a certain item every 5 minutes and sends me an email  
          to alert me if the price drops to a new low.
 
