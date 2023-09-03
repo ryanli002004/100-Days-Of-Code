@@ -1,4 +1,6 @@
 (easier to read in code mode)
+Done on Visual Studio Code instead of on Replit!
+I used sqlite3 instead of replit's own database system.
 I worked on this 100 days of code on three different laptops, two Windows laptops and a Macbook.
 I had a different priavte repository for each laptop, so I combined all of them into one repository(this one).
 After combining the repositories, I finished the 100 days on the Mac.
