@@ -1,4 +1,4 @@
-#for unknown reasons tkinter seems to only work on windows and not on mac
+#tkinter works on mac only if python is updated to the latest version
 import tkinter as tk
 window = tk.Tk()
 window.title("calculator")
